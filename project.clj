@@ -1,4 +1,4 @@
-(defproject dataflocks/clj-logback-event-evaluator "0.1.1"
+(defproject dataflocks/clj-logback-event-evaluator "0.2.0-SNAPSHOT"
   :description "a logback event evaluator that evaluates clojure expressions"
   :license {:name "MIT License"
             :url  "https://opensource.org/licenses/MIT"}

@@ -23,11 +23,11 @@ Once it's added your project dependencies it can be used like any other
 <configuration>
   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
     <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
-    <evaluator class="dataflocks.CljLogbackEventEvaluator">
-        <expression>(.contains msg "billing")</expression>
-      </evaluator>
-      <OnMismatch>NEUTRAL</OnMismatch>
-      <OnMatch>DENY</OnMatch>
+        <evaluator class="dataflocks.CljLogbackEventEvaluator">
+	  <expression>(.contains msg "billing")</expression>
+	</evaluator>
+        <OnMismatch>NEUTRAL</OnMismatch>
+        <OnMatch>DENY</OnMatch>
     </filter>
     <encoder>
       <pattern>

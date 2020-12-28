@@ -32,7 +32,7 @@
   (:expression @(.state this)))
 
 (defn mk-evaluator-fn [str]
-  (eval `(fn [{:keys [~'mdc ~'level ~'msg ~'fmt-msg ~'logger-name ~'marker ~'event]}]
+  (eval `(fn [{:keys [~'mdc ~'level ~'msg ~'fmt-msg ~'logger-name ~'thread-name ~'marker ~'timestamp ~'event]}]
            (boolean ~(read-string str)))))
 
 (defn -start [^dataflocks.CljLogbackEventEvaluator this]

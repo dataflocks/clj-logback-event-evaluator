@@ -1,4 +1,4 @@
-(defproject dataflocks/clj-logback-event-evaluator "0.1.0-SNAPSHOT"
+(defproject dataflocks/clj-logback-event-evaluator "0.1.0"
   :description "FIXME: write description"
   :license {:name "MIT License"
             :url  "https://opensource.org/licenses/MIT"}

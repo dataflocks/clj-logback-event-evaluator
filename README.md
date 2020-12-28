@@ -1,9 +1,11 @@
 # clj-logback-event-evaluator
 
+![CI](https://github.com/dataflocks/clj-logback-event-evaluator/workflows/CI/badge.svg?branch=main)
+
 A logback [EventEvaluator](http://logback.qos.ch/manual/filters.html#evalutatorFilter) that evaluates clojure expressions.
 
 In projects where clojure is already a dependency it helps avoid an additional
-dependency on eg janino when dynamic filtering of log events is desired.
+dependency on eg Janino when dynamic filtering of log events is desired.
 
 ```
 *** Warning ***

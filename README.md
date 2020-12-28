@@ -1,6 +1,7 @@
 # clj-logback-event-evaluator
 
 ![CI](https://github.com/dataflocks/clj-logback-event-evaluator/workflows/CI/badge.svg?branch=main)
+[![Clojars Project](https://img.shields.io/clojars/v/dataflocks/clj-logback-event-evaluator.svg)](https://clojars.org/dataflocks/clj-logback-event-evaluator)
 
 A logback [EventEvaluator](http://logback.qos.ch/manual/filters.html#evalutatorFilter) that evaluates clojure expressions.
 
